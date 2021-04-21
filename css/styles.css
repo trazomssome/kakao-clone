@@ -1,12 +1,14 @@
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-
 @import "reset.css";
 @import "variables.css";
 /* Components */
 @import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/nav.css";
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
-  font-family: "Nanum Gothic", "Open Sans", sans-serif;
+  color: #2e363e;
+  font-family: sans-serif;
 }
