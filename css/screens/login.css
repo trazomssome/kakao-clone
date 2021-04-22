@@ -29,7 +29,7 @@
   font-size: 18px;
   padding: 15px 0px;
   margin-bottom: 25px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: var(--main-border);
   transition: border-color 0.3s ease-in-out;
   color: rgba(0, 0, 0, 0.4);
 }
